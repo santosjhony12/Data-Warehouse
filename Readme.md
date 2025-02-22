@@ -69,4 +69,30 @@ BD tradicional são transacionais como Relacional ou Orientado a Objetos já o D
 - Uma medida é um valor numérico totalizado utilizado para analisar/observar um determinado negócio.
 - Dimensões são filtros que afetam a maneira de visualizar as medidas.
 
+## Qual a importância da Modelagem de Dados?
+- A modalidade multidimensional é uma técnica de concepção e vizualiação de um modelo de dados;
+Modelo estrela de Banco de Dados
+Quando?
+O que?
+Onde?
+Quem?
 
+![image](https://github.com/user-attachments/assets/b223c212-779a-4a8a-b0f5-d6f341ad958e)
+
+ Como identificar as dimensões? - Como os fatos serão analisados?
+- Perguntas (Quando, o que, onde e quem?)
+
+- Como identificar a granulidade das dimensões?
+  Qual o nível de granularidade das dimensões?
+- Qual nível de detalhe desejado?
+- Faz sentido avaliar a métrica(medida) "quantidade vendida por dia?"
+Nível de detalhamento
+Quanto maior de detalhes, menor o nivel de granularidade.
+Dados mais granulares contêm informações mais específicas (exemplo: registrar cada transação bancária individualmente), enquanto dados menos granulares são mais agregados (exemplo: registrar apenas o saldo final do dia).
+
+Chave primária das tabelas de dimensão também chamadas de substitutas deve ser sempre unico e definido pelo sistema com um valor generico inteiros atribuidos sequencialmente.
+
+Vantagens da redundancia nas tabelas
+- Melhor desempenho nas consultas.
+- Guardar histórico dos dados.
+- 
